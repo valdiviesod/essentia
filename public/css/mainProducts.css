@@ -1,0 +1,90 @@
+/* Estilos específicos de la vista de productos */
+
+body {
+    background-color: #f7efe7;
+}
+/* Contenedor para la grilla */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Agrega un espacio de 20px entre las columnas de la grilla */
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #DFA893; /* Cambia el color a tu preferencia, en este caso, es azul (#007bff) */
+    opacity: 0.9; /* Agrega un poco de opacidad */
+    
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #7D593F; /* Cambia el color al pasar el ratón por encima (#0056b3) */
+}
+
+.navbar a:hover {
+    color: #7D593F; /* Cambia el color al pasar el ratón por encima (#0056b3) */
+}
+
+/* Estilos de cada elemento en la grilla */
+.product-item {
+    background: #FAD5C2; /* Cambia el color de fondo a un gris claro */
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s; /* Agrega una transición suave para animar el efecto hover */
+    margin-bottom: 20px; /* Agrega un espacio de 20px entre los elementos de la grilla */
+}
+
+.product-item:hover {
+    transform: scale(1.05); /* Hace que el producto se agrande ligeramente al pasar el mouse sobre él */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Agrega una sombra suave al pasar el mouse sobre el producto */
+}
+
+.product-item img {
+    max-width: 100%;
+    max-height: 190px; /* Puedes ajustar la altura máxima según tus necesidades */
+}
+
+.product-item h2 {
+    font-size: 1.5rem; /* Cambia el tamaño del texto del título */
+    margin-top: 10px; /* Agrega espacio entre la imagen y el título */
+}
+
+
+footer {
+    background: #DFA893;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    opacity: 0.9;  
+}
+
+main h2 {
+    color: #7D593F; 
+}
+
+#instaLogo {
+    width: 50px;
+    height: 50px;
+}
+
+/* Estilos para los botones en el pie de página */
+footer button {
+    background: none; /* Elimina el fondo de los botones */
+    border: none; /* Elimina el borde de los botones */
+    padding: 0; /* Elimina el espacio interior de los botones */
+    border-radius: 50%; /* Hace que los botones sean redondos */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón sobre los botones */
+}
+
+/* Estilos para la imagen dentro de los botones (ajusta el tamaño según tus necesidades) */
+footer button img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Estilos para los botones al pasar el ratón por encima */
+footer button:hover {
+    opacity: 0.8; /* Puedes reducir la opacidad ligeramente al pasar el ratón por encima para dar retroalimentación visual */
+}
+
+
