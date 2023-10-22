@@ -1,0 +1,45 @@
+/* Estilo para el formulario de registro */
+.registration-form {
+    background: #FAD5C2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Agrega una sombra suave */
+    transform: translateZ(0); /* Activa la representación 3D para navegadores modernos */
+}
+
+/* Estilo para el título del formulario */
+.registration-form h2 {
+    color: #7D593F;
+    font-size: 1.5rem;
+}
+
+/* Estilo para las etiquetas de formulario */
+.registration-form label {
+    color: #7D593F;
+}
+
+/* Estilo para los campos de formulario */
+.registration-form .form-control {
+    background: #f7efe7;
+    color: #7D593F;
+    border: 1px solid #7D593F; /* Agrega un borde alrededor de los campos */
+}
+
+/* Estilo para el botón de registro */
+.registration-form .btn-primary {
+    background: #7D593F;
+    border: none;
+    color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* Agrega una sombra al botón */
+}
+
+/* Estilo para el botón de registro al pasar el mouse por encima */
+.registration-form .btn-primary:hover {
+    background: #FBB29F;
+}
+
+/* Estilo para centrar el botón de registro horizontalmente */
+.center-button {
+    display: block;
+    margin: 0 auto;
+}

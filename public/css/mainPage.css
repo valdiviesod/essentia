@@ -71,3 +71,14 @@ footer img {
     width: 30px; /* Ancho deseado en píxeles */
     height: 30px; /* Alto deseado en píxeles */
 }
+
+/* Estilo para el enlace "Inicia sesión" */
+.navbar .ml-auto .login {
+    margin-right: 10px; /* Ajusta el valor de margen según tus preferencias */
+}
+
+/* Estilo para el enlace "Regístrate" */
+.navbar .ml-auto .register {
+    margin-right: 10px; /* Ajusta el valor de margen según tus preferencias */
+}
+
