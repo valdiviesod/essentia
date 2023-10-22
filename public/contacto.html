@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>essentia.website</title>
+    <title>Contacto - Essentia</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/mainPage.css">
+    <link rel="stylesheet" href="./css/mainProducts.css">
+    <link rel="stylesheet" href="./css/contact.css">
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container">
-            <a class="navbar-brand" href="#">Essentia</a>
+            <a class="navbar-brand " href="./mainPage.html">Essentia</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -24,37 +26,42 @@
                         <a class="nav-link" href="./mainProducts.html">Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contáctanos</a>
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
                     </li>
                 </ul>
             </div>
-            <div class="ml-auto">
-                <a class="nav-link login" href="./login.html">Inicia sesión</a>
-            </div>
-            <div class="ml-auto">
-                <a class="nav-link register" href="./register.html  ">Regístrate</a>
-            </div>
-            
-            
         </div>
     </nav>
 
-    <!-- Banner de Bienvenida -->
-    <header>
-        <a href="./mainProducts.html" class="btn-comprar">Compra Ahora</a>
-    </header>
-
-    <!-- Footer -->
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Contáctanos</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <button class="contact-button" onclick="redirectToWhatsApp()">
+                        <img src="./img/whatsapp.svg" alt="WhatsApp">
+                        <p>Contáctanos en WhatsApp</p>
+                    </button>
+                </div>
+                <div class="col-md-6">
+                    <button class="contact-button" onclick="redirectToInstagram()">
+                        <img src="./img/instagram.svg" alt="Instagram">
+                        <p>Contáctanos en Instagram</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    
     <footer>
         <p>&copy; 2023 By Silvia Castro & Daniel Valdivieso</p>
-        <a href="https://api.whatsapp.com/send?phone=TUNUMERO" target="_blank">
-            <img src="./img/whatsapp.svg" alt="WhatsApp">
-        </a>
-        <a href="https://www.instagram.com/TUUSUARIO" target="_blank">
-            <img src="./img/instagram.svg" alt="Instagram">
-        </a>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="./js/mainProducts.js"></script>
 </body>
 </html>
