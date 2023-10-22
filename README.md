@@ -1,2 +1,2 @@
 # essentia
-Ecommerce de velas 
+Ecommerce  
