@@ -45,28 +45,27 @@
     <main class="d-flex align-items-center justify-content-center">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 offset-md-3"> 
-                    <form class="registration-form" method="post" action="http://localhost:3000/users">
+                <div class="col-md-6 offset-md-3">
+                    <form class="registration-form" method="post" action="http://localhost:3000/register">
+                        
                         <div class="mb-3">
-                            <label for="nombre" class="form-label">Nombre</label>
-                            <input name="name" type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Correo electrónico</label>
-                            <input name="email" type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico" required>
+                            <label for="nombre" class="form-label">Nombre de usuario</label>
+                            <input name="name" type="text" class="form-control" id="nombre"
+                                placeholder="Ingresa tu nombre de usuario" required>
                         </div>
                         <div class="mb-3">
                             <label for="contrasena" class="form-label">Contraseña</label>
-                            <input name="password" type="password" class="form-control" id="contrasena" placeholder="Ingresa tu contraseña" required>
+                            <input name="password"  type="password" class="form-control" id="contrasena"
+                                placeholder="Ingresa tu contraseña" required>
+                            
                         </div>
-                        
                         <button type="submit" class="btn btn-primary center-button">Regístrate</button>
                     </form>
-                    
                 </div>
             </div>
         </div>
     </main>
+
     
     
     <footer>
